@@ -1,0 +1,20 @@
+<div class="container">
+    
+<h1>Liste des utilisateur </h1>
+
+<table id="customers">
+  <tr>
+    <th>Nom</th>
+    <th>Prénom</th>
+    <th>Email</th>
+    <th>Action</th>
+  </tr>
+  <tr *ngFor="let user of userList">
+    <td>{{user.nom}}</td>
+    <td>{{user.prenom}}</td>
+    <td>{{user.email}}</td>
+    <td><a [routerLink]="['edit', user.id]" routerLinkActive="router-link-active" >Editer</a></td>
+  </tr>
+
+</table>
+</div>

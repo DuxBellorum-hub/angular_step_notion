@@ -1,0 +1,12 @@
+.form_container {
+    background-color: white;
+    width: 200px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.form_error{
+    color: red;
+    font-size: small;
+}

@@ -1,0 +1,38 @@
+<nav class="sidenav">
+    <ul class="main-buttons">
+        <li style="padding: 0; margin: 0;">
+            <i class="fa fa-circle fa-2x"></i>
+            <a [routerLink]="['/']" style="padding: 16px 52px; box-sizing: border-box;"> >Accueil</a>
+        </li>
+        <li style="padding: 0; margin: 0;">
+            <i class="fa fa-circle fa-2x"></i>
+            <a [routerLink]="['dashboard']" style="padding: 16px 52px; box-sizing: border-box;"> >Dashboard</a>
+        </li>
+        <li>
+            <i class="fa fa-circle fa-2x"></i>
+            >User
+            <ul class="hidden">
+                <a [routerLink]="['user']">
+                    <li>Liste users </li>
+                </a>
+                <a [routerLink]="['user/add']">
+                    <li> Ajouter user </li>
+                </a>
+
+            </ul>
+        </li>
+        <li>
+            <i class="fa fa-circle fa-2x"></i>
+            >Cocktails
+            <ul class="hidden">
+                <a [routerLink]="['cocktail']">
+                    <li>Liste des cocktails </li>
+                </a>
+                <a [routerLink]="['cocktail/add']">
+                    <li>Ajouter cocktail </li>
+                </a>
+
+            </ul>
+        </li>
+    </ul>
+</nav>

@@ -1,0 +1,15 @@
+ 
+  /* Style the navbar */
+  .navbar {
+    text-align: center;
+    background-color: #f36060;
+    color: #fff;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.navbar div{
+    font-size: 25px;
+
+}

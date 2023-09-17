@@ -1,0 +1,14 @@
+
+.admin_wrapper{
+    display:  flex;
+    justify-content: space-between;
+    
+}
+
+
+.container{
+   
+    margin-left: 5%;
+    padding: 5px;
+   
+}
